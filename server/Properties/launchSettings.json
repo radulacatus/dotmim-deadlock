@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+    "profiles": {
+      "DataSyncServer": {
+        "commandName": "Project",
+        "launchBrowser": true,
+        "launchUrl": "api/sync",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        },
+        "applicationUrl": "https://localhost:44342;http://localhost:60194"
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: DataSyncServer",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\server\\DataSyncServer.csproj"
+        },
+        {
+            "name": "C#: DataSyncClient", 
+            "type": "coreclr", 
+            "request": "launch", 
+            "program": "${workspaceFolder}\\client\\bin\\Debug\\net6.0\\DataSyncClient.dll", 
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal", 
+            "stopAtEntry": false,
+            "internalConsoleOptions": "openOnSessionStart"  
+        }
+    ]
+}
